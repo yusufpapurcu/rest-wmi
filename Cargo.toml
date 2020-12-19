@@ -1,5 +1,5 @@
 [package]
-name = "virtualmetric-winrust"
+name = "rest-wmi"
 version = "0.1.0"
 authors = ["Yusuf-Papurcu"]
 edition = "2018"
