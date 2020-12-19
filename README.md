@@ -2,6 +2,8 @@
 
 rest-wmi is a simple conventer for [Windows WMI](https://docs.microsoft.com/en-us/windows/win32/wmisdk/about-wmi) written in [rust](https://www.rust-lang.org/).
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyusufpapurcu%2Frest-wmi&count_bg=%233DC8A4&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Repo+Popularity&edge_flat=false)](https://hits.seeyoufarm.com)
+
 Using wmi is hard if language haven't libraries about wmi. Because creating, initializing and querying wmi is little difficult. If you want see steps you can look at [here](https://docs.microsoft.com/en-us/windows/win32/wmisdk/developing-a-wmi-provider). This is the existence point of rest-wmi.
 
 rest-wmi designed for querying wmi above rest api. Also can be used for monitoring remote clients. But in this conditions this may be dangerous.
