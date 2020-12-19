@@ -9,4 +9,24 @@ rest-wmi designed for querying wmi above rest api. Also can be used for monitori
 ## Using rest-wmi
 Compile project with `cargo build` and double click `/target/debug/rest-wmi.exe`
 
-You are ready to send json messages to `localhost:8080`.
+You are ready to send json messages to `localhost:8080`
+
+For an example send :
+
+```json
+{
+    "namespace":"ROOT\\CIMV2",
+    "query":"Select Name From Win32_Process"
+}
+```
+
+Don't forget sending as `POST Request` !!
+
+## Contributing to project
+This project is a template and can be used for different cases. Because of this if you sent a case special thing this will not accept. But you can mail me and I add your project to users section :smile:
+
+If you found a bug or useful thing can be added to template your contribution are welcome.
+
+## Users 
+
+If you use and want to be here please mail me from [here](mailto:yusufturhanp@gmail.com?Subject=I'm%20a%20rest-wmi%20user)
